@@ -27,6 +27,10 @@ inputs:
     description: "Set the sonar.projectBaseDir analysis property"
     required: false
     default: "."
+  exclusions:
+    description: "Globs of files or directories to exclude"
+    required: false
+    default: ""
   login:
     description: "Login or authentication token of a SonarQube user"
     required: true
